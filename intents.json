@@ -1,0 +1,44 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you with your finances today?", "Hi there! Need help with investments or budgeting?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Goodbye! Stay financially smart!", "Take care!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["You're welcome!", "Glad I could help!"]
+      },
+      {
+        "tag": "budgeting",
+        "patterns": ["How can I budget my money?", "Tips for saving money", "Monthly budget plan"],
+        "responses": [
+          "Start by tracking your income and expenses. Allocate funds to needs, wants, and savings (50/30/20 rule).",
+          "Use budgeting apps like Mint or YNAB to manage your monthly spending."
+        ]
+      },
+      {
+        "tag": "investment",
+        "patterns": ["How should I invest my money?", "Investment tips", "Where can I invest?"],
+        "responses": [
+          "Consider diversifying into stocks, mutual funds, and ETFs. Always assess your risk tolerance.",
+          "If you're a beginner, start with index funds and learn about dollar-cost averaging."
+        ]
+      },
+      {
+        "tag": "credit_score",
+        "patterns": ["How to improve my credit score?", "Credit score tips", "Increase credit rating"],
+        "responses": [
+          "Pay your bills on time, keep your credit utilization low, and avoid too many hard inquiries.",
+          "Monitor your credit report regularly for errors and maintain a good mix of credit."
+        ]
+      }
+    ]
+  }
+  
